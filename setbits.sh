@@ -34,19 +34,23 @@ else
 	if [ $bit_zero -eq 1 ]
 		then 
 			gpio write 0 1
+			echo "bit O is 1"
 	fi
 	if [ $bit_one -eq 1 ]
 		then 
 			gpio write 1 1
-	fi
+			echo bit 1 is 1
+	fi	
 
 	if [ $bit_two -eq 1 ]
 		then 
 			gpio write 2 1
+			echo "bit 2 is 1"
 	fi
 
 	if [ $bit_three -eq 1 ]
 		then 
 			gpio write 3 1
+			echo "bit 3 is 1"
 	fi
 fi

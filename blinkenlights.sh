@@ -2,6 +2,7 @@
 #!/bin/bash
 while :
 do
+ echo seting pins
 ./setbits.sh $RANDOM
-sleep 0.25
+sleep 1
 done
